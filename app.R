@@ -20,7 +20,7 @@ ui <- fluidPage(
           sidebarLayout(
                     sidebarPanel(
                               shinyDirButton("dir", "Ordner auswählen", "Bitte wählen Sie einen Ordner mit PDF-Dateien aus"),
-                              actionButton("analyzeBtn", "Analyse starten")
+                              actionButton("analyzeBtn", "Metadaten generieren")
                     ),
                     
                     mainPanel(
